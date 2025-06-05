@@ -128,14 +128,26 @@
                 justify-content: center;
             }
             .apresentacao {
-                flex-direction: column-reverse;
-                padding: 5%;
-            }
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0.1px; /* Reduz o espaço entre os elementos */
+}
+
             .apresentacao__conteudo { 
-                width: auto;
+                width: 100%;
+                margin: 0 auto;
+                padding-top: 0;
+                text-align: center; /* Centraliza o texto */
+                 /* Reduz o espaçamento entre os elementos */
             }
             .apresentacao__imagem {
-                width: 54%;
-               margin-top: -190px;
+            width: 23vh; /* Ocupa toda a largura disponível */
+            display: flex ; /* Garante que fique separada do texto */
+            margin: 10%; /* Centraliza a imagem */
+            position: relative; /* Evita sobreposição indesejada */
+            right: 0;
+            bottom: 0 auto;
+
             }
         }
