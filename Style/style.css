@@ -131,7 +131,7 @@
                 display: flex;
                 flex-direction: column-reverse;
                 align-items: center;
-                gap: 5px; /* Reduz o espaço entre os elementos */
+                gap: 2px; /* Reduz o espaço entre os elementos */
             }
 
             .apresentacao__conteudo { 
