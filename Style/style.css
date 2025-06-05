@@ -146,7 +146,7 @@
             display: block; /* Garante que fique separada do texto */
              margin: 15% auto 0 auto; /* Centraliza a imagem */
             position: relative; /* Evita sobreposição indesejada */
-           
+        align-items: center;
 
             }
         }
