@@ -101,12 +101,10 @@
             .apresentacao__imagem {
                 width: 400px; /* Defina um tamanho fixo */
                 height: auto; /* Mantém proporção */
-                display: block; /* Remove espaços extras */
+                display: flex; /* Remove espaços extras */
                 margin: auto 50px; /* Centraliza a imagem */
-                position: absolute;
-                right: 20px;
-                top: 50%;
-                transform: translateY(-50%);
+                
+            
 }
 
         .rodape {
@@ -119,37 +117,20 @@
             font-weight: 400;
         }
 
-        @media (max-width: 1138px) {
-            body {
-                 box-sizing: border-box;
-            }
+        @media (max-width: 1200px) {
             .cabecalho {
                 padding: 10%;
-                
             }
             .cabecalho__menu {
                 justify-content: center;
             }
             .apresentacao {
-                display: flex;
                 flex-direction: column-reverse;
-                align-items: center;
-                gap: 20px; /* Reduz o espaço entre os elementos */
+                padding: 5%;
             }
-
-            .apresentacao__conteudo { 
-                width: 100%;
-                margin: 5px 5px 0px 5px; /* Margem reduzida */
-                padding-top: 2px;
-                text-align: center; /* Centraliza o texto */
-                align-items: center;
+            .apresentacao__conteudo {
+                width: auto;
             }
-            .apresentacao__imagem {
-            width: 35vh; /* Ocupa toda a largura disponível */
-            display: block; /* Garante que fique separada do texto */
-             margin: 30% 30% 10% 30%; /* Centraliza a imagem */
-            position: relative; /* Evita sobreposição indesejada */
-            gap: 20px; /* Espaçamento entre a imagem e o texto */
-           align-items: flex-start;
-            }
+            
+            
         }
