@@ -144,7 +144,7 @@
             .apresentacao__imagem {
             width: 23vh; /* Ocupa toda a largura disponível */
             display: flex ; /* Garante que fique separada do texto */
-            margin: 10%; /* Centraliza a imagem */
+            margin: 15%; /* Centraliza a imagem */
             position: relative; /* Evita sobreposição indesejada */
             right: 0;
             bottom: 0 auto;
