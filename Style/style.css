@@ -136,7 +136,7 @@
 
             .apresentacao__conteudo { 
                 width: 100%;
-                margin: 5px auto;
+                margin: 5px 5px 0px 5px; /* Margem reduzida */
                 padding-top: 2px;
                 text-align: center; /* Centraliza o texto */
                  /* Reduz o espaçamento entre os elementos */
@@ -144,7 +144,7 @@
             .apresentacao__imagem {
             width: 35vh; /* Ocupa toda a largura disponível */
             display: block; /* Garante que fique separada do texto */
-             margin: 40% 30% -10% 30%; /* Centraliza a imagem */
+             margin: 30% 30% -10% 30%; /* Centraliza a imagem */
             position: relative; /* Evita sobreposição indesejada */
            
 
