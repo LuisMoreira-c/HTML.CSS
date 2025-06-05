@@ -120,6 +120,9 @@
         }
 
         @media (max-width: 1138px) {
+            body {
+                 box-sizing: border-box;
+            }
             .cabecalho {
                 padding: 10%;
                 
