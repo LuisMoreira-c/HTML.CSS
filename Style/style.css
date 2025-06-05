@@ -142,9 +142,9 @@
                  /* Reduz o espaçamento entre os elementos */
             }
             .apresentacao__imagem {
-            width: 30%; /* Ocupa toda a largura disponível */
+            width: 30vh; /* Ocupa toda a largura disponível */
             display: block; /* Garante que fique separada do texto */
-             margin: 2% auto 0 auto; /* Centraliza a imagem */
+             margin: 15% auto 0 auto; /* Centraliza a imagem */
             position: relative; /* Evita sobreposição indesejada */
            
 
