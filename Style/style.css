@@ -128,16 +128,16 @@
                 justify-content: center;
             }
             .apresentacao {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 0.1px; /* Reduz o espaço entre os elementos */
-}
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                gap: 0.1px; /* Reduz o espaço entre os elementos */
+            }
 
             .apresentacao__conteudo { 
                 width: 100%;
-                margin: 0 auto;
-                padding-top: 0;
+                margin: 5px auto;
+                padding-top: 2px;
                 text-align: center; /* Centraliza o texto */
                  /* Reduz o espaçamento entre os elementos */
             }
