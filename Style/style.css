@@ -147,9 +147,9 @@
             .apresentacao__imagem {
             width: 35vh; /* Ocupa toda a largura disponível */
             display: block; /* Garante que fique separada do texto */
-             margin: 30% 30% -10% 30%; /* Centraliza a imagem */
+             margin: 20% 30% -10% 30%; /* Centraliza a imagem */
             position: relative; /* Evita sobreposição indesejada */
-           
+           align-items: flex-end;
 
             }
         }
