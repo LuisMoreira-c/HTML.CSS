@@ -51,5 +51,6 @@
     }
     .banner {
         padding: 6em;
+        margin: auto;
     }
 }
